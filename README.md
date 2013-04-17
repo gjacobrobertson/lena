@@ -11,11 +11,17 @@ So for no apparent reason I thought it would be fun to play around with the famo
 * pkg-config
 * opencv
 
-#Warhol
+##Warhol
 In a quick attempt to Warholify the image, I start by doing k-means clustering to segment the image, and then colored the segments randomly.
 
     warhol images/lena.jpg images/warhol.jpg 3 4
 
-yields
-
 ![Warhol Panel](/images/warhol.jpg)
+
+##Contour
+This one is the result of finding some contours and filling them in with the average values of those contours.
+
+    contour images/lena.jpg images/contour.jpg
+
+![Contour](/images/contour.jpg)
+
