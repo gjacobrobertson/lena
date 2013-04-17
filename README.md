@@ -12,7 +12,7 @@ So for no apparent reason I thought it would be fun to play around with the famo
 * opencv
 
 ##Warhol
-In a quick attempt to Warholify the image, I start by doing k-means clustering to segment the image, and then color the segments randomly.
+In a quick attempt to Warholify the image, I start by doing k-means clustering to segment the image, and then color the segments randomly. Hardly perfect but I think the results are pretty neat.
 
     warhol images/lena.jpg images/warhol.jpg 3 4
 
